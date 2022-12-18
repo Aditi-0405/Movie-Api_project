@@ -8,7 +8,7 @@ let main = document.getElementById("mains");
 
 let get_movie = () => {
   let movie_name = movie_searched.value;
-  let url = `http://www.omdbapi.com/?t=${movie_name}&apikey=${key}`;
+  let url = `https://www.omdbapi.com/?t=${movie_name}&apikey=${key}`;
   if (movie_name.length <= 0) {
     result.innerHTML = '<h3 class="msg">ENTER A MOVIE</h3>';
     post.innerHTML = ``;
