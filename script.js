@@ -25,7 +25,7 @@ let get_movie = () => {
           console.log(data);
           result.innerHTML = `<div class="name">${data.Title}</div>
             <div class="rating">
-            <img src="/images/star.png" class="star">
+            <img src="./images/star.png" class="star">
             ${data.imdbRating}
 
            </div>
