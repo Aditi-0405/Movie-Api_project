@@ -88,7 +88,7 @@ function display_movies(data) {
   </div>
   <div class="moviee_rating">
       
-      <span>${vote_average}<img src="/images/star.png" class="star"></span>
+      <span>${vote_average}<img src="./images/star.png" class="star"></span>
   </div>
       
       `;
